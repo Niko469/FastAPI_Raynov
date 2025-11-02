@@ -5,8 +5,8 @@ services:
    container_name: db_fastapi
    environment:
      - POSTGRES_DB=fastapi_db
-     - POSTGRES_PASSWORD=passwd
-     - POSTGRES_USER=usuario
+     - POSTGRES_PASSWORD=userpass
+     - POSTGRES_USER=user
    ports:
      - "5432:5432"
    volumes:
